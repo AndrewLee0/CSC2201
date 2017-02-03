@@ -24,8 +24,8 @@ ExprTree<DataType>::~ExprTree(){
 		delete root;
 	}
 	else
-		return;
-}
+        return;
+};
 ///reads an arithmetic expression in prefix form from the keyboard and builds the corresponding expression tree
 template <typename DataType>
 ExprTree <DataType>::build(){
